@@ -3,7 +3,7 @@
 
 _pkgname="gummy"
 pkgname="$_pkgname"
-pkgver=0.6.3
+pkgver=0.6.4
 pkgrel=1
 pkgdesc="Screen brightness/temperature manager for Linux"
 url="https://api.github.com/repos/Squirreljetpack"
@@ -31,7 +31,7 @@ install="$_pkgname.install"
 _pkgsrc="gummy"
 _pkgext="tar.gz"
 source=("$_pkgname-$pkgver.$_pkgext"::"$url/$_pkgsrc/tarball/$pkgver")
-sha256sums=('e5145b151d5f5d772e06893177eebbbbfb73751bf5084770c5308d54d77d8735')
+sha256sums=('9f1262cbdcf5cafc3a9f56660bb676dc20687b41ace5748656e97d97f1ab2518')
 
 prepare() {
   extract=("$srcdir"/*$pkgname*/)
